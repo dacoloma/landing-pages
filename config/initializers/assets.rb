@@ -12,6 +12,6 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 # application.js, application.css, and all non-JS/CSS in the app/assets
 # folder are already added.
 # Rails.application.config.assets.precompile += %w( admin.js admin.css )
-Rails.application.config.assets.precompile += %w( checkr.css )
-Rails.application.config.assets.precompile += %w( flynn.css )
-Rails.application.config.assets.precompile += %w( sparks.css )
+Rails.application.config.assets.precompile += %w( checkr.scss )
+Rails.application.config.assets.precompile += %w( flynn.scss )
+Rails.application.config.assets.precompile += %w( sparks.scss )
